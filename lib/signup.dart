@@ -16,9 +16,9 @@ class _SignupPageState extends State<SignupPage> {
             Widget>[
           Stack(
             children: <Widget>[
-              Container(EdgeInsets.fromLTRB(15.0, 110.0, 0.0, 0.0),
-        child: const Te
-                padding: const xt(
+              Container(
+                padding: const EdgeInsets.fromLTRB(15.0, 110.0, 0.0, 0.0),
+                child: const Text(
                   'Signup',
                   style:
                   TextStyle(fontSize: 80.0, fontWeight: FontWeight.bold),
