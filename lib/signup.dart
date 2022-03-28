@@ -40,7 +40,7 @@ class _SignupPageState extends State<SignupPage> {
                         // hintText: 'EMAIL',
                         // hintStyle: ,
                         focusedBorder: UnderlineInputBorder(
-                            borderSide: BorderSide(color: Colors.green))),
+                            borderSide: BorderSide(color: Colors.redAccent))),
                   ),
                   const SizedBox(height: 10.0),
                   const TextField(
@@ -51,7 +51,7 @@ class _SignupPageState extends State<SignupPage> {
                             fontWeight: FontWeight.bold,
                             color: Colors.grey),
                         focusedBorder: UnderlineInputBorder(
-                            borderSide: BorderSide(color: Colors.green))),
+                            borderSide: BorderSide(color: Colors.redAccent))),
                     obscureText: true,
                   ),
                   const SizedBox(height: 10.0),
@@ -63,7 +63,7 @@ class _SignupPageState extends State<SignupPage> {
                             fontWeight: FontWeight.bold,
                             color: Colors.grey),
                         focusedBorder: UnderlineInputBorder(
-                            borderSide: BorderSide(color: Colors.green))),
+                            borderSide: BorderSide(color: Colors.redAccent))),
                     obscureText: true,
                   ),
                   const SizedBox(height: 50.0),
@@ -71,8 +71,8 @@ class _SignupPageState extends State<SignupPage> {
                       height: 40.0,
                       child: Material(
                         borderRadius: BorderRadius.circular(20.0),
-                        shadowColor: Colors.greenAccent,
-                        color: Colors.green,
+                        shadowColor: Colors.redAccent,
+                        color: Colors.redAccent,
                         elevation: 7.0,
                         child: GestureDetector(
                           onTap: () {},

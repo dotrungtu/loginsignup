@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               fontWeight: FontWeight.bold,
                               color: Colors.grey),
                           focusedBorder: UnderlineInputBorder(
-                              borderSide: BorderSide(color: Colors.green))),
+                              borderSide: BorderSide(color: Colors.redAccent))),
                     ),
                     const SizedBox(height: 20.0),
                     const TextField(
@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               fontWeight: FontWeight.bold,
                               color: Colors.grey),
                           focusedBorder: UnderlineInputBorder(
-                              borderSide: BorderSide(color: Colors.green))),
+                              borderSide: BorderSide(color: Colors.redAccent))),
                       obscureText: true,
                     ),
                     const SizedBox(height: 40.0),
@@ -75,8 +75,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 40.0,
                       child: Material(
                         borderRadius: BorderRadius.circular(20.0),
-                        shadowColor: Colors.greenAccent,
-                        color: Colors.green,
+                        shadowColor: Colors.redAccent,
+                        color: Colors.redAccent,
                         elevation: 7.0,
                         child: GestureDetector(
                           onTap: () {},
@@ -111,7 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         Navigator.of(context).pushNamed('/signup');
                       },
                       child: const Center(
-                        child: Text('Sign up',
+                        child: Text('SIGNUP INSTEAD',
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontFamily: 'Montserrat')),
